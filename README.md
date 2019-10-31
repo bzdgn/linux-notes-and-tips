@@ -13,7 +13,6 @@ TOC
 
  1-a General
 ------------
-sadf
 
 | command | description |
 | --- | --- |
