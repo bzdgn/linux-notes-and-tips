@@ -13,7 +13,7 @@ TOC
 
  1-a General
 ------------
-|---|---|
+| --- | --- |
 | Esc               | Command Mode                              |
 | i                 | Insert Mode                               |
 | :q                | Quit                                      |
