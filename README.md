@@ -17,6 +17,12 @@ TOC
 | command | description |
 | --- | --- |
 | Esc               | Command Mode                              |
+| i                 | Insert Mode                               |
+| :q                | Quit                                      |
+| :q!               | ! means ignoring modification on file     |
+| :wq               | Write and quit                            |
+| ZZ                | Write and quit                            |
+| :w filename2.txt  | Write to another filename                 |
 
 [Go back to Vi Editor](#0-vi-editor) <br/>
 [Go back to TOC](#toc)
