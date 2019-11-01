@@ -101,7 +101,16 @@ Move cursor to the border of the view;
 | M                 | Mid of the view                           |
 | L                 | Low of the view                           |
 
+Move cursor based on line;
 
+| nH                | nth line from Top                         |
+| nL                | nth line from Low                         |
+| --- | --- |
+| :n                | Move nth line                             |
+| --- | --- |
+| ctrl+b            | One page up                               |
+| ctrl+u            | Half page up                              |
+| ctrl+d            | Half page down                            |
 
 [Go back to Vi Editor](#0-vi-editor) <br/>
 [Go back to TOC](#toc)
