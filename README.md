@@ -1,4 +1,4 @@
-Linux Notes And Tips
+Linux Notes and Tips
 ====================
 
 This repository will be my notes and tips on Linux, especially the command-line. I am learning how to use `vi`, `cut`, `sed`, `awk` and such useful commands in Linux. This repository will consist of command-line tools, editors and tips about such tools on Linux.
