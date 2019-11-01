@@ -68,6 +68,41 @@ Move cursor within the line;
 | 0 or \|           | Move cursor to the start of the line      |
 | $                 | Move cursor to the end of the line        |
 
+Move cursor based on word;
+
+| command | description |
+| --- | --- |
+| w                 | Position the cursor to the next word      |
+| b                 | Position the cursor to the previous word  |
+
+Move cursor based on sentence;
+
+| command | description |
+| --- | --- |
+| (                 | Move beginning of the sentence based on . |
+| )                 | Move end of the sentence based on .       |
+
+Move based on char within the line;
+
+| command | description |
+| --- | --- |
+| f?                | Moves to the next ? in the line           |
+| F?                | Moves to the previous ? in the line       |
+
+Move cursor to the border of the view;
+
+| command | description |
+| --- | --- |
+| 1G                | Begining                                  |
+| G                 | End                                       |
+| nG                | nth line                                  |
+| --- | --- |
+| H                 | Top of the view                           |
+| M                 | Mid of the view                           |
+| L                 | Low of the view                           |
+
+
+
 [Go back to Vi Editor](#0-vi-editor) <br/>
 [Go back to TOC](#toc)
 
