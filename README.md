@@ -1,7 +1,7 @@
 Linux Notes And Tips
 ====================
 
-This repository will be my notes and tips on Linux, especially command line. I am learning how to use `vi`, `cut`, `sed`, `awk` and such useful commands in Linux. This repository will consist of command-line tools, editors and tips about such tools on Linux. 
+This repository will be my notes and tips on Linux, especially the command-line. I am learning how to use `vi`, `cut`, `sed`, `awk` and such useful commands in Linux. This repository will consist of command-line tools, editors and tips about such tools on Linux.
 
 TOC
 ---
@@ -50,15 +50,15 @@ Basic cursor movement;
 
 <pre>
          k
-        
-         |      
+
+         |
          |
          |
 h  ------.------  l
          |
          |
          |
-         
+
          j
 </pre>
 
@@ -87,44 +87,44 @@ Move cursor based on paragraph;
 
 | command | description |
 | --- | --- |
-| {                 | Move cursor to the previous paragraph.    |
-| }                 | Move cursor to the next paragraph.        |
+| {                 | Move cursor to the previous paragraph.                   |
+| }                 | Move cursor to the next paragraph.                       |
 
 Move based on char within the line;
 
 | command | description |
 | --- | --- |
-| f?                | Moves to the next ? in the line           |
-| F?                | Moves to the previous ? in the line       |
+| f?                | Moves to the next ? in the line                          |
+| F?                | Moves to the previous ? in the line                      |
 
 Move cursor to the border of the view;
 
 | command | description |
 | --- | --- |
-| 1G                | Begining                                  |
-| G                 | End                                       |
-| nG                | nth line                                  |
+| 1G                | Begining                                                 |
+| G                 | End                                                      |
+| nG                | nth line                                                 |
 | --- | --- |
-| H                 | Top of the view                           |
-| M                 | Mid of the view                           |
-| L                 | Low of the view                           |
+| H                 | Top of the view                                          |
+| M                 | Mid of the view                                          |
+| L                 | Low of the view                                          |
 
 Move cursor based on line;
 
 | command | description |
 | --- | --- |
-| nH                | nth line from Top                         |
-| nL                | nth line from Low                         |
+| nH                | nth line from Top                                        |
+| nL                | nth line from Low                                        |
 | --- | --- |
-| :n                | Move nth line                             |
+| :n                | Move nth line                                            |
 | --- | --- |
-| ctrl+b            | One page up                               |
-| ctrl+u            | Half page up                              |
-| ctrl+d            | Half page down                            |
-| ctrl+f            | One page down                             |
+| ctrl+b            | One page up                                              |
+| ctrl+u            | Half page up                                             |
+| ctrl+d            | Half page down                                           |
+| ctrl+f            | One page down                                            |
 | --- | --- |
-| ctrl+y            | One line up                               |
-| ctrl+e            | One line down                             |
+| ctrl+y            | One line up                                              |
+| ctrl+e            | One line down                                            |
 
 [Go back to Vi Editor](#1-vi-editor) <br/>
 [Go back to TOC](#toc)
