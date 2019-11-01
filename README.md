@@ -104,6 +104,7 @@ Move cursor to the border of the view;
 Move cursor based on line;
 
 | command | description |
+| --- | --- |
 | nH                | nth line from Top                         |
 | nL                | nth line from Low                         |
 | --- | --- |
