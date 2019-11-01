@@ -7,7 +7,7 @@ TOC
 ---
 - [1 Vi Editor](#1-vi-editor) <br/>
   * [1-a- General](#1-a-general) <br/>
-  * [2-a- Moving Cursor](2-a-moving-cursor) <br/>
+  * [1-b- Moving Cursor](#1-b-moving-cursor) <br/>
 
  1 Vi Editor
 ------------
@@ -29,7 +29,7 @@ TOC
 [Go back to TOC](#toc)
 
 
- 2-a Moving Cursor
+ 1-b Moving Cursor
 ------------------
 
 Move Cursor
