@@ -34,6 +34,19 @@ TOC
 Move Cursor
 -----------
 
+Basic cursor movement;
+
+| command | description |
+| --- | --- |
+| k                 | Move cursor up                            |
+| j                 | Move cursor down                          |
+| h                 | Move cursor left                          |
+| l                 | Move cursor right                         |
+| nk                | Move cursor up    n times                 |
+| nj                | Move cursor down  n times                 |
+| nh                | Move cursor left  n times                 |
+| nl                | Move cursor right n times                 |
+
 <pre>
          k
         
@@ -47,6 +60,13 @@ h  ------.------  l
          
          j
 </pre>
+
+Move cursor within the line;
+
+| command | description |
+| --- | --- |
+| 0 or \|           | Move cursor to the start of the line      |
+| $                 | Move cursor to the end of the line        |
 
 [Go back to Vi Editor](#0-vi-editor) <br/>
 [Go back to TOC](#toc)
