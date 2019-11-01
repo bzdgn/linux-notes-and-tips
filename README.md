@@ -5,8 +5,9 @@ This repository will be my notes and tips on linux, especially command line. I a
 
 TOC
 ---
-- [1 Vi Editor](#0-vi-editor) <br/>
+- [1 Vi Editor](#1-vi-editor) <br/>
   * [1-a- General](#1-a-general) <br/>
+  * [2-a- Moving Cursor](2-a-moving-cursor) <br/>
 
  1 Vi Editor
 ------------
@@ -24,7 +25,7 @@ TOC
 | ZZ                | Write and quit                            |
 | :w filename2.txt  | Write to another filename                 |
 
-[Go back to Vi Editor](#0-vi-editor) <br/>
+[Go back to Vi Editor](#1-vi-editor) <br/>
 [Go back to TOC](#toc)
 
 
@@ -118,6 +119,6 @@ Move cursor based on line;
 | ctrl+y            | One line up                               |
 | ctrl+e            | One line down                             |
 
-[Go back to Vi Editor](#0-vi-editor) <br/>
+[Go back to Vi Editor](#1-vi-editor) <br/>
 [Go back to TOC](#toc)
 
