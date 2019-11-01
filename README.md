@@ -113,6 +113,10 @@ Move cursor based on line;
 | ctrl+b            | One page up                               |
 | ctrl+u            | Half page up                              |
 | ctrl+d            | Half page down                            |
+| ctrl+f            | One page down                             |
+| --- | --- |
+| ctrl+y            | One line up                               |
+| ctrl+e            | One line down                             |
 
 [Go back to Vi Editor](#0-vi-editor) <br/>
 [Go back to TOC](#toc)
