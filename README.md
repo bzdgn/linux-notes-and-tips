@@ -1,7 +1,7 @@
 Linux Notes And Tips
 ====================
 
-This repository will be my notes and tips on linux, especially command line. I am learning how to use vi, cut, sed, awk and such useful commands in Linux. This repository will consist of command line tools, editors and tips about such tools on Linux. 
+This repository will be my notes and tips on Linux, especially command line. I am learning how to use `vi`, `cut`, `sed`, `awk` and such useful commands in Linux. This repository will consist of command-line tools, editors and tips about such tools on Linux. 
 
 TOC
 ---
@@ -80,8 +80,15 @@ Move cursor based on sentence;
 
 | command | description |
 | --- | --- |
-| (                 | Move beginning of the sentence based on . |
-| )                 | Move end of the sentence based on .       |
+| (                 | Move cursor to the beginning of the sentence, based on . |
+| )                 | Move cursor to the end of the sentence, based on .       |
+
+Move cursor based on paragraph;
+
+| command | description |
+| --- | --- |
+| {                 | Move cursor to the previous paragraph.    |
+| }                 | Move cursor to the next paragraph.        |
 
 Move based on char within the line;
 
