@@ -66,65 +66,65 @@ Move cursor within the line;
 
 | command | description |
 | --- | --- |
-| 0 or \|           | Move cursor to the start of the line      |
-| $                 | Move cursor to the end of the line        |
+| 0 or \|           | Start of the line                     |
+| $                 | End of the line                       |
 
-Move cursor based on word;
-
-| command | description |
-| --- | --- |
-| w                 | Position the cursor to the next word      |
-| b                 | Position the cursor to the previous word  |
-
-Move cursor based on sentence;
+Move cursor by word;
 
 | command | description |
 | --- | --- |
-| (                 | Move cursor to the beginning of the sentence, based on . |
-| )                 | Move cursor to the end of the sentence, based on .       |
+| w                 | Next word                             |
+| b                 | Previous word                         |
 
-Move cursor based on paragraph;
-
-| command | description |
-| --- | --- |
-| {                 | Move cursor to the previous paragraph.                   |
-| }                 | Move cursor to the next paragraph.                       |
-
-Move based on char within the line;
+Move cursor by sentence;
 
 | command | description |
 | --- | --- |
-| f?                | Moves to the next ? in the line                          |
-| F?                | Moves to the previous ? in the line                      |
+| (                 | Beginning of the sentence, based on . |
+| )                 | End of the sentence, based on .       |
+
+Move cursor by paragraph;
+
+| command | description |
+| --- | --- |
+| }                 | Next paragraph                        |
+| {                 | Previous paragraph                    |
+
+Move cursor by character;
+
+| command | description |
+| --- | --- |
+| f?                | Next ? in the current line            |
+| F?                | Previous ? in the current line        |
 
 Move cursor to the border of the view;
 
 | command | description |
 | --- | --- |
-| 1G                | Begining                                                 |
-| G                 | End                                                      |
-| nG                | nth line                                                 |
+| 1G or gg          | Begining                              |
+| G                 | End                                   |
+| nG                | nth line                              |
 | --- | --- |
-| H                 | Top of the view                                          |
-| M                 | Mid of the view                                          |
-| L                 | Low of the view                                          |
+| H                 | Top of the view                       |
+| M                 | Mid of the view                       |
+| L                 | Low of the view                       |
 
-Move cursor based on line;
+Move cursor by line;
 
 | command | description |
 | --- | --- |
-| nH                | nth line from Top                                        |
-| nL                | nth line from Low                                        |
+| nH                | nth line from Top                     |
+| nL                | nth line from Low                     |
 | --- | --- |
-| :n                | Move nth line                                            |
+| :n                | Move cursor to the nth line           |
 | --- | --- |
-| ctrl+b            | One page up                                              |
-| ctrl+u            | Half page up                                             |
-| ctrl+d            | Half page down                                           |
-| ctrl+f            | One page down                                            |
+| ctrl+b            | One page up                           |
+| ctrl+u            | Half page up                          |
+| ctrl+d            | Half page down                        |
+| ctrl+f            | One page down                         |
 | --- | --- |
-| ctrl+y            | One line up                                              |
-| ctrl+e            | One line down                                            |
+| ctrl+y            | One line up                           |
+| ctrl+e            | One line down                         |
 
 [Go back to Vi Editor](#1-vi-editor) <br/>
 [Go back to TOC](#toc)
