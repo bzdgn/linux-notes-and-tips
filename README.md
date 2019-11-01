@@ -29,13 +29,10 @@ TOC
 [Go back to TOC](#toc)
 
 
- 1-b Moving Cursor
-------------------
+ 1-b Cursor Movement
+--------------------
 
-Move Cursor
------------
-
-Basic cursor movement;
+Basic cursor movement:
 
 | command | description |
 | --- | --- |
@@ -62,42 +59,42 @@ h  ------.------  l
          j
 </pre>
 
-Move cursor within the line;
+Move cursor within the line:
 
 | command | description |
 | --- | --- |
 | 0 or \|           | Start of the line                     |
 | $                 | End of the line                       |
 
-Move cursor by word;
+Move cursor by word:
 
 | command | description |
 | --- | --- |
 | w                 | Next word                             |
 | b                 | Previous word                         |
 
-Move cursor by sentence;
+Move cursor by sentence:
 
 | command | description |
 | --- | --- |
 | (                 | Beginning of the sentence, based on . |
 | )                 | End of the sentence, based on .       |
 
-Move cursor by paragraph;
+Move cursor by paragraph:
 
 | command | description |
 | --- | --- |
 | }                 | Next paragraph                        |
 | {                 | Previous paragraph                    |
 
-Move cursor by character;
+Move cursor by character:
 
 | command | description |
 | --- | --- |
 | f?                | Next ? in the current line            |
 | F?                | Previous ? in the current line        |
 
-Move cursor to the border of the view;
+Move cursor to the border of the view:
 
 | command | description |
 | --- | --- |
@@ -109,7 +106,7 @@ Move cursor to the border of the view;
 | M                 | Mid of the view                       |
 | L                 | Low of the view                       |
 
-Move cursor by line;
+Move cursor by line:
 
 | command | description |
 | --- | --- |
