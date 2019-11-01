@@ -1,13 +1,13 @@
-Linux Notes And Tips
+Linux Notes and Tips
 ====================
 
-This repository will be my notes and tips on linux, especially command line. I am learning how to use vi, cut, sed, awk and such useful commands in Linux. This repository will consist of command line tools, editors and tips about such tools on Linux. 
+This repository will be my notes and tips on Linux, especially the command-line. I am learning how to use `vi`, `cut`, `sed`, `awk` and such useful commands in Linux. This repository will consist of command-line tools, editors and tips about such tools on Linux.
 
 TOC
 ---
 - [1 Vi Editor](#1-vi-editor) <br/>
   * [1-a- General](#1-a-general) <br/>
-  * [1-b- Moving Cursor](#1-b-moving-cursor) <br/>
+  * [1-b- Cursor Movement](#1-b-cursor-movement) <br/>
 
  1 Vi Editor
 ------------
@@ -29,13 +29,10 @@ TOC
 [Go back to TOC](#toc)
 
 
- 1-b Moving Cursor
-------------------
+ 1-b Cursor Movement
+--------------------
 
-Move Cursor
------------
-
-Basic cursor movement;
+Basic cursor movement:
 
 | command | description |
 | --- | --- |
@@ -50,74 +47,81 @@ Basic cursor movement;
 
 <pre>
          k
-        
-         |      
+
+         |
          |
          |
 h  ------.------  l
          |
          |
          |
-         
+
          j
 </pre>
 
-Move cursor within the line;
+Move cursor within the line:
 
 | command | description |
 | --- | --- |
-| 0 or \|           | Move cursor to the start of the line      |
-| $                 | Move cursor to the end of the line        |
+| 0 or \|           | Start of the line                     |
+| $                 | End of the line                       |
 
-Move cursor based on word;
-
-| command | description |
-| --- | --- |
-| w                 | Position the cursor to the next word      |
-| b                 | Position the cursor to the previous word  |
-
-Move cursor based on sentence;
+Move cursor by word:
 
 | command | description |
 | --- | --- |
-| (                 | Move beginning of the sentence based on . |
-| )                 | Move end of the sentence based on .       |
+| w                 | Next word                             |
+| b                 | Previous word                         |
 
-Move based on char within the line;
-
-| command | description |
-| --- | --- |
-| f?                | Moves to the next ? in the line           |
-| F?                | Moves to the previous ? in the line       |
-
-Move cursor to the border of the view;
+Move cursor by sentence:
 
 | command | description |
 | --- | --- |
-| 1G                | Begining                                  |
-| G                 | End                                       |
-| nG                | nth line                                  |
-| --- | --- |
-| H                 | Top of the view                           |
-| M                 | Mid of the view                           |
-| L                 | Low of the view                           |
+| (                 | Beginning of the sentence, based on . |
+| )                 | End of the sentence, based on .       |
 
-Move cursor based on line;
+Move cursor by paragraph:
 
 | command | description |
 | --- | --- |
-| nH                | nth line from Top                         |
-| nL                | nth line from Low                         |
+| }                 | Next paragraph                        |
+| {                 | Previous paragraph                    |
+
+Move cursor by character:
+
+| command | description |
 | --- | --- |
-| :n                | Move nth line                             |
+| f?                | Next ? in the current line            |
+| F?                | Previous ? in the current line        |
+
+Move cursor to the border of the view:
+
+| command | description |
 | --- | --- |
-| ctrl+b            | One page up                               |
-| ctrl+u            | Half page up                              |
-| ctrl+d            | Half page down                            |
-| ctrl+f            | One page down                             |
+| 1G or gg          | Begining                              |
+| G                 | End                                   |
+| nG                | nth line                              |
 | --- | --- |
-| ctrl+y            | One line up                               |
-| ctrl+e            | One line down                             |
+| H                 | Top of the view                       |
+| M                 | Mid of the view                       |
+| L                 | Low of the view                       |
+
+Move cursor by line:
+
+| command | description |
+| --- | --- |
+| nH                | nth line from Top                     |
+| nL                | nth line from Low                     |
+| --- | --- |
+| :n                | Move cursor to the nth line           |
+| --- | --- |
+| ctrl+b            | One page up                           |
+| ctrl+u            | Half page up                          |
+| ctrl+d            | Half page down                        |
+| ctrl+f            | One page down                         |
+| --- | --- |
+| ctrl+y            | One line up                           |
+| ctrl+e            | One line down                         |
 
 [Go back to Vi Editor](#1-vi-editor) <br/>
 [Go back to TOC](#toc)
