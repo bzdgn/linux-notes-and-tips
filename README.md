@@ -65,7 +65,7 @@ Move cursor within the line;
 
 | command | description |
 | --- | --- |
-| 0 or \|           | Move cursor to the start of the line      |
+| 0 or |            | Move cursor to the start of the line      |
 | $                 | Move cursor to the end of the line        |
 
 [Go back to Vi Editor](#0-vi-editor) <br/>
