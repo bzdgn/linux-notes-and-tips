@@ -26,3 +26,28 @@ TOC
 
 [Go back to Vi Editor](#0-vi-editor) <br/>
 [Go back to TOC](#toc)
+
+
+ 2-a Moving Cursor
+------------------
+
+Move Cursor
+-----------
+
+<pre>
+         k
+        
+         |      
+         |
+         |
+h  ------.------  l
+         |
+         |
+         |
+         
+         j
+</pre>
+
+[Go back to Vi Editor](#0-vi-editor) <br/>
+[Go back to TOC](#toc)
+
